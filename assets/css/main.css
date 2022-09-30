@@ -15,15 +15,6 @@ Open Sans, Athene
 /*=============================================
                   GENERAL
 ===============================================*/
-html {
-    font-size: 10px;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 @font-face {
     font-family: Athene;
@@ -34,6 +25,25 @@ body {
     font-family: Open-Sans;
     src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
 }
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site {
+    margin: 0;
+    padding: 11vh 0 0 5vw;
+    font-size: 2rem;
+}
+
+
 
 /*=============================================
                   HEADER
@@ -94,28 +104,89 @@ body header figure figcaption span {
 /*=============================================
                   SECTION RELEASE
 ===============================================*/
+/*----------------article 1--------------------*/
 
 #release {
     background-color: #F4C4C4;
     padding-bottom: 10vh;
 }
 
-#release p {
+#release article:nth-of-type(1) p {
     margin: 0;
     padding: 9vh 0 0 5vw;
+    font-family: Open-Sans;
     font-size: 2rem;
 }
 
-#release div {
+#release .heading {
     padding-top: 9vh;
-    width: 35vw;
+    width: 37vw;
 }
 
-#release div h2 {
+#release div:nth-of-type(1) h2 {
     font-family: Athene;
     font-size: 20rem;
     font-weight: lighter;
     margin: 0;
     word-break: break-all;
-    width: 70%;
+    width: 95%;
+}
+
+#release article:nth-of-type(1) {
+    width: 40vw;
+    padding: 0 0 0 55vw;
+}
+
+#release article:nth-of-type(1) p {
+    line-height: 5vh;
+    padding: 0;
+}
+
+/*-----------------article 2-------------------*/
+
+#release article:nth-of-type(2) {
+    padding: 10vh 0 0 53vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#release article:nth-of-type(2) div {
+    display: flex;
+    align-items: center;
+    font-family: Open-Sans;
+    border-bottom: 1px solid black;
+}
+
+#release article:nth-of-type(2) div:nth-of-type(1) {
+    border-top: 1px solid black;
+}
+
+#release article:nth-of-type(2) h2 {
+    margin: 0;
+    font-family: Open-Sans;
+}
+
+#release article:nth-of-type(2) div h3 {
+    width: 30vw;
+    margin: 0;
+}
+
+#release article:nth-of-type(2) div p {
+    padding: 0 0 0 5vw;
+    width: 6vw;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+#release article:nth-of-type(2) div span {
+    font-size: 2rem;
+    margin-left: 3vw;
+}
+
+#release img {
+    width: 6vw;
+    height: auto;
+    padding: 12vh 0 0 87vw;
 }
