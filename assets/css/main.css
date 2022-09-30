@@ -116,5 +116,6 @@ body header figure figcaption span {
     font-size: 20rem;
     font-weight: lighter;
     margin: 0;
-    display: inline;
+    word-break: break-all;
+    width: 70%;
 }
