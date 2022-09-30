@@ -111,16 +111,23 @@ body header figure figcaption span {
     padding-bottom: 10vh;
 }
 
+#release .heading {
+    padding-top: 9vh;
+    width: 37vw;
+}
+
+#release article:nth-of-type(1) {
+    width: 40vw;
+    padding: 0 0 0 55vw;
+}
+
 #release article:nth-of-type(1) p {
     margin: 0;
     padding: 9vh 0 0 5vw;
     font-family: Open-Sans;
     font-size: 2rem;
-}
-
-#release .heading {
-    padding-top: 9vh;
-    width: 37vw;
+    line-height: 5vh;
+    padding: 0;
 }
 
 #release div:nth-of-type(1) h2 {
@@ -132,15 +139,7 @@ body header figure figcaption span {
     width: 95%;
 }
 
-#release article:nth-of-type(1) {
-    width: 40vw;
-    padding: 0 0 0 55vw;
-}
 
-#release article:nth-of-type(1) p {
-    line-height: 5vh;
-    padding: 0;
-}
 
 /*-----------------article 2-------------------*/
 
@@ -189,4 +188,135 @@ body header figure figcaption span {
     width: 6vw;
     height: auto;
     padding: 12vh 0 0 87vw;
+}
+
+
+/*=============================================
+                  SECTION WORKS
+===============================================*/
+/*-----------------article 1-------------------*/
+
+#works {
+    background-color: #DEB873;
+    width: 100%;
+    color: #7D2222;
+}
+
+#works .site__left {
+    margin: 0;
+    font-size: 2rem;
+    padding: 11vh 0 0 90vw;
+}
+
+#works .heading__right {
+    padding: 9vh 0 0 62vw;
+    width: 37vw;    
+}
+
+#works .heading__right h2 {
+    margin: 0;
+    font-family: Athene;
+    font-size: 20rem;
+    font-weight: lighter;
+    text-align: right;
+    word-break: break-all;
+}
+
+#works article:nth-of-type(1) {
+    width: 38vw;
+    padding: 0 0 0 0;
+}
+
+#works article:nth-of-type(1) p {
+    margin: 0;
+    padding: 2vh 0 0 8vw;
+    font-family: Open-Sans;
+    font-size: 2rem;
+    line-height: 5vh;
+}
+
+
+/*-----------------article 2-------------------*/
+
+/*-----------------pictures 1-------------------*/
+
+#works article:nth-of-type(2) {
+    width: 86.5vw;
+    height: 60vh;
+    background-image: url("../img/bg-marconatto-1.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 24vh;
+}
+
+#works article:nth-of-type(2) p {
+    font-family: Athene;
+    font-weight: lighter;
+    font-size: 8rem;
+    word-break: break-word;
+    width: 39%;
+    padding-top: 2vh;
+    padding-left: 7.5vw;
+}
+
+/*-----------------pictures 2-------------------*/
+
+#works article:nth-of-type(3) {
+    padding-top: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30vh;
+}
+
+#works article:nth-of-type(3) p {
+    font-family: Athene;
+    font-weight: lighter;
+    font-size: 8rem;
+    word-break: break-word;
+    width: 24%;
+    text-align: right;
+    margin-top: 0;
+}
+
+/*-----------------pictures 3-------------------*/
+
+#works article:nth-of-type(4) {
+    width: 86.5vw;
+    height: 60vh;
+    background-image: url("../img/bg-nicole-1.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 20vh;
+}
+
+#works article:nth-of-type(4) p {
+    font-family: Athene;
+    font-weight: lighter;
+    font-size: 8rem;
+    word-break: break-word;
+    width: 39%;
+    padding-top: 2vh;
+    padding-left: 7.5vw;
+}
+
+/*-----------------pictures 4-------------------*/
+
+#works article:nth-of-type(5) {
+    padding-top: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40vh;
+    margin-bottom: 20vh;
+}
+
+#works article:nth-of-type(5) p {
+    font-family: Athene;
+    font-weight: lighter;
+    font-size: 8rem;
+    word-break: break-word;
+    width: 28%;
+    text-align: right;
+    margin-top: 0;
 }
