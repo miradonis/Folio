@@ -48,34 +48,46 @@ body header {
     color: #042A5A;
 }
 
-body header div:nth-of-type(1) {
+.fixed {
     display: flex;
     justify-content: space-between;
-    padding: 0 8vw;
+    align-items: center;
+    border-bottom: 2px solid #042A5A;
+    position: fixed;
+    width: 100%;
+    height: 7vh;
+}
+
+.fixed p {
+    font-size: 1.5rem;
+    padding: 0 7vw;
+}
+
+.first__heading {
+    width: 60vw;
+    margin: 0 auto;
     border-bottom: 2px solid #042A5A;
 }
 
-body header div p {
-    font-size: 1.5rem;
+.box__1 {
+    padding-top: 10vh;
 }
 
 body header div:nth-of-type(2) {
     width: 60vw;
-    padding-top: 10vh;
-    margin: 0 auto;
     text-align: center;
 }
 
-body header div:nth-of-type(2) h1 {
-    display: inline;
+.first__heading h1 {
+    margin: 0;
     font-family: Athene;
     font-weight: lighter;
     font-size: 15rem;
-    border-bottom: 1px solid black;
+    text-align: center;
 }
 
-body header div:nth-of-type(2) h1:nth-of-type(2) {
-    padding-left: 1vw;
+.first__heading span {
+    letter-spacing: -8px;
 }
 
 body header figure {
@@ -262,7 +274,7 @@ body header figure figcaption span {
 
 #works article:nth-of-type(3) {
     padding-top: 40vh;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 30vh;
@@ -303,7 +315,7 @@ body header figure figcaption span {
 
 #works article:nth-of-type(5) {
     padding-top: 40vh;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 30vh;
